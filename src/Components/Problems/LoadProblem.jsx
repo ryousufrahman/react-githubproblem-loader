@@ -7,6 +7,7 @@ const LoadProblem = ({problem}) => {
                 <h2>{problem.title}</h2>
                 <p>{problem.description}</p>
                 <p className={problem.status ==='open'? 'open' : 'closed'}>Status : {problem.status}</p>
+                <p className='text-2xl'>hello</p>
 
             </div>
             

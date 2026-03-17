@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <h2>Hello</h2>
-     <Suspense fallback={<p>Loading...</p>}>
+     <Suspense fallback={<p className='loader'>Loading...</p>}>
       <Problem fetchProblem={fetchProblem}></Problem>
 
      </Suspense>
