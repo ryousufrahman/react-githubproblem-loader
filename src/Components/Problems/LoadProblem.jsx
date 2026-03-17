@@ -3,8 +3,11 @@ import React from 'react';
 const LoadProblem = ({problem}) => {
     return (
         <div>
-            <div>
-                <h1>{problem.title}</h1>
+            <div className='card'>
+                <h2>{problem.title}</h2>
+                <p>{problem.description}</p>
+                <p className={problem.status ==='open'? 'open' : 'closed'}>Status : {problem.status}</p>
+
             </div>
             
         </div>

@@ -9,7 +9,7 @@ const Problem = ({fetchProblem}) => {
 
     
     return (
-        <div>
+        <div className='box'>
             {
                 problemData.map(problem=> <LoadProblem problem ={problem} key={problem.id} ></LoadProblem> )
             }

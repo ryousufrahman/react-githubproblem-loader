@@ -1,0 +1,19 @@
+.card{
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px gray;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(162, 83, 83, 0.03);
+    
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.open{
+    color: red;
+}
+.closed{
+    color: green;
+}
