@@ -14,7 +14,7 @@ const Navbar = () => {
                }
            
            </div>
-            <ul className={`md:hidden absolute  ${open?'top-17 p-4':'hidden'}`}>
+            <ul className={`md:hidden absolute  ${open?'top-20 p-4 bg-gray-500 rounded-2xl space-y-10 ':'hidden'}`}>
             <li className="">
               <a href="">Home</a>
             </li>

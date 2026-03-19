@@ -11,7 +11,7 @@ function App() {
       <Navbar></Navbar>
       <main className="max-w-300 mx-auto">
          <Suspense
-        fallback={<span className="loading loading-bars loading-xs"></span>}>
+        fallback= {[<span className="loading loading-bars loading-xs "></span> ,<span className="loading loading-bars loading-xs "></span>,<span className="loading loading-bars loading-xs "></span>]} >
         <PricingOptin pricingPromise={pricingPromise}></PricingOptin>
       </Suspense>
       </main>
