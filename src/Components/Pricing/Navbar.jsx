@@ -14,14 +14,28 @@ const Navbar = () => {
              }
            
            </div>
+            <ul className={`md:hidden absolute  ${open?'top-10 p-4':'hidden'}`}>
+            <li className="">
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">Services</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">Blog</a>
+            </li>
+          </ul>
             
-          <h1 className="text-5xl text-primary">NAVBAR</h1>
+          <h1 className="text-5xl text-primary hidden md:block">NAVBAR</h1>
           <div>
             
           </div>
         </div>
         <div>
-          <ul className="flex gap-4">
+          <ul className="md:flex hidden gap-4">
             <li className="">
               <a href="">Home</a>
             </li>
