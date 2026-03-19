@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "Free",
+    "price": 0,
+    "billing": "month",
+    "description": "Perfect for beginners starting vocabulary learning",
+    "features": [
+      "Access to 500+ basic words",
+      "Daily 10 quizzes",
+      "Basic progress tracking",
+      "Limited flashcards",
+      "Ads supported"
+    ],
+    "isPopular": false,
+    "buttonText": "Get Started"
+  },
+  {
+    "id": 2,
+    "name": "Pro",
+    "price": 9,
+    "billing": "month",
+    "description": "Best for serious learners who want faster progress",
+    "features": [
+      "Access to 5000+ words",
+      "Unlimited quizzes",
+      "Advanced progress analytics",
+      "Unlimited flashcards",
+      "Spaced repetition system",
+      "No ads",
+      "Save favorite words"
+    ],
+    "isPopular": true,
+    "buttonText": "Upgrade to Pro"
+  },
+  {
+    "id": 3,
+    "name": "Premium",
+    "price": 19,
+    "billing": "month",
+    "description": "For advanced users aiming for mastery",
+    "features": [
+      "Access to 10000+ words",
+      "AI-powered word suggestions",
+      "Personalized learning path",
+      "Voice pronunciation practice",
+      "Download lessons offline",
+      "Priority support",
+      "No ads"
+    ],
+    "isPopular": false,
+    "buttonText": "Go Premium"
+  }
+]

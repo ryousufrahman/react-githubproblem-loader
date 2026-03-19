@@ -4,17 +4,17 @@ import React, { useState } from "react";
 const Navbar = () => {
     const [open, setOpen]= useState(false)
   return (
-    <div className="max-w-300 mx-auto mt-5">
-      <nav className="flex justify-between items-center">
+    <div className="md:max-w-300 md:mx-auto mt-5 p-3">
+      <nav className="flex justify-between items-center mb-10">
         {/* navleft */}
         <div className="flex gap-4 items-center  ">
            <div  onClick={()=>setOpen(!open)}>
                {
-                open?<CircleX className="md:hidden"></CircleX>  : <Menu className="md:hidden " ></Menu>
-             }
+                open?<CircleX className="md:hidden"></CircleX>  : <Menu className="md:hidden "></Menu>
+               }
            
            </div>
-            <ul className={`md:hidden absolute  ${open?'top-10 p-4':'hidden'}`}>
+            <ul className={`md:hidden absolute  ${open?'top-17 p-4':'hidden'}`}>
             <li className="">
               <a href="">Home</a>
             </li>
